@@ -1,0 +1,26 @@
+.article-list-container {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-list {
+    text-decoration: none;
+}
+
+.article-list h3 {
+    color: #00a8e8;
+    margin: 0;
+}
+
+.article-list p {
+    color: black;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.article-list-container:hover {
+    transform: scale(1.05);
+}

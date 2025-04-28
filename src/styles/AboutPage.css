@@ -1,0 +1,13 @@
+.about-image-container {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.about-image-container img {
+    width: 100%;
+}
+
+.highlight {
+    color: #00a8e8;
+}

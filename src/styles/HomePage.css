@@ -1,0 +1,27 @@
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.image-container {
+    max-width: 550px;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.higlight {
+    color: #00a8e8;
+}
+
+p {
+    margin: 16px 0;
+}
+
+.with-margin-bottom {
+    margin-bottom: 50px;
+}

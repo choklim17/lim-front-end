@@ -1,0 +1,9 @@
+.not-found-header,
+.not-found-p,
+.not-found-a {
+    text-align: center;
+}
+
+.not-found-header {
+    margin: 50px;
+}
