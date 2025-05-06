@@ -11,7 +11,7 @@ function LoginPage() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Login submitted: ', {email, password});
-        navigate(`/user/${email}`);
+        navigate(`/dashboard`);
     }
 
     return (
@@ -50,7 +50,7 @@ function LoginPage() {
                 </div>
             </form>
 
-            <p className="signup-link">Don't have an account yet? <Link to='/user/signup'>Sign up</Link></p>
+            <p className="signup-link">Don't have an account yet? <Link to='/register'>Sign up</Link></p>
         </div>
     );
 }

@@ -20,7 +20,7 @@ function Navbar() {
                     <Link to="/articles">Articles</Link>
                 </li>
             </ul>
-            <Button><Link to='/user'>Login</Link></Button>
+            <Button><Link to='/login'>Login</Link></Button>
         </nav>
     );
 }
