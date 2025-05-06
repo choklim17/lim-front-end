@@ -9,7 +9,7 @@ function DashboardPage() {
                 <Card sx={{ width: 275 }}>
                     <CardContent>
                         <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-                        Number of users
+                        Number of Users
                         </Typography>
                         <Typography variant="h5" component="div">
                         420

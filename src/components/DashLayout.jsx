@@ -140,7 +140,7 @@ const DashLayout = () => {
                 <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
                     {pageTitle}
                 </Typography>
-                <Button color="inherit" variant="outlined" onClick={handleLogout}>Logout</Button>
+                <Button variant="outlined" color='inherit' onClick={handleLogout}>Logout</Button>
             </Toolbar>
         </AppBar>
  
